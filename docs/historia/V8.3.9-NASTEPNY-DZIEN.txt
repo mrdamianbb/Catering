@@ -1,0 +1,12 @@
+v8.3.9 — kuchnia widzi diety na następny dzień
+
+Sekcja pokazuje:
+- klienta
+- typ diety
+- kcal
+- liczbę posiłków 3/4/5
+- liczbę porcji
+- wykluczenia
+- trasę
+
+Lista bierze aktywne diety na jutrzejszą datę i usuwa stare nakładające się rekordy klienta.

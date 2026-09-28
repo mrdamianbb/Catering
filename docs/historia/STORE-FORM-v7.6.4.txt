@@ -1,0 +1,8 @@
+Zmiany sklepu v7.6.4
+- Cennik publiczny: 1200=65, 1300=69, 1600=79, 1800=84, 2000=89, 2500=99, 3000=109 zł/dzień.
+- Cena widoczna w selektorze kcal i pod polem.
+- Keto: checkbox „Keto bez glutenu”.
+- Alergeny: obowiązkowo „Brak alergenów” albo opis.
+- Dostęp do klatki: jeśli zaznaczone, kod/klucz/instrukcja staje się obowiązkowa.
+- Wszystkie te informacje są walidowane klient + serwer.
+- Dane specjalne trafiają do notes w store_orders, więc nie wymagają zmiany schematu bazy.

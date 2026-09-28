@@ -1,0 +1,12 @@
+Naprawiono client-side exception z v8.3.4.
+
+Przyczyna znaleziona w kodzie:
+normalizedMealShare wywoływało normalizedMealShare ponownie dla każdego wiersza,
+czyli tworzyło rekursję podczas renderowania panelu. To kończyło się wyjątkiem
+po stronie przeglądarki.
+
+Naprawa:
+- usunięta rekursja,
+- funkcja liczy udział bezpośrednio z mealPlanFor,
+- funkcja dostaje gotową listę produkowanych posiłków,
+- zachowane pełne kcal dla 3/4/5 posiłków.

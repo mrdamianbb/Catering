@@ -1,0 +1,9 @@
+Przyczyna:
+Admin zapisywał diets.meal_count, ale część odczytów diet dla kuchni nie pobierała kolumny meal_count.
+Wtedy mealCountOf/effectiveMealCount dostawał undefined i fallback ustawiał 4.
+
+Naprawa:
+- wszystkie jawne SELECT-y diet w panelu i menu pobierają meal_count,
+- kuchnia używa wartości 3/4/5 zapisanej na rekordzie diety,
+- fallback 4 zostaje wyłącznie dla starych rekordów bez tej kolumny/wartości,
+- dołączono SQL do utworzenia/naprawienia kolumny i przeładowania schema cache Supabase.

@@ -1,0 +1,15 @@
+v8.2.3 — liczba posiłków 3/4/5 per dieta klienta
+
+Admin:
+- przy dodawaniu diety wybór 3 / 4 / 5 posiłków
+- przy edycji diety wybór 3 / 4 / 5 posiłków
+- przy odnowieniu starej diety zachowanie meal_count
+
+Kuchnia:
+- od razu widzi liczbę posiłków na liście „To realnie ma wyjechać”
+- grupowanie produkcji korzysta z meal_count konkretnej diety
+- 3/4/5 posiłków nie są mieszane w jednej grupie
+
+Baza:
+- wymagane pole diets.meal_count
+- dołączono supabase-add-meal-count.sql

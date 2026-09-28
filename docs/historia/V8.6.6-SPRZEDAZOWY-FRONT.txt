@@ -1,0 +1,7 @@
+Zmiany wyłącznie na publicznym froncie /sklep:
+- mocniejszy hero sprzedażowy,
+- korzyści nad foldem,
+- sekcja Dlaczego Dzika Kaczka?,
+- bardziej sprzedażowy wybór diet,
+- dodatkowe CTA przed formularzem,
+- panel/admin/kuchnia/logika zamówień bez zmian.

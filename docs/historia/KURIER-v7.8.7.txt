@@ -1,0 +1,11 @@
+Naprawa błędu:
+'Brak konfiguracji Supabase po stronie serwera'
+
+- endpoint /api/courier-route nie wymaga już SUPABASE_SERVICE_ROLE_KEY,
+- używa sesji zalogowanego kuriera i publicznego klucza Supabase,
+- jeśli endpoint nie zadziała, panel przechodzi w tryb awaryjny zamiast się wywracać,
+- panel pokazuje brakujące adresy i ostrzeżenie o trybie awaryjnym.
+
+Do działania wystarczą istniejące:
+NEXT_PUBLIC_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY

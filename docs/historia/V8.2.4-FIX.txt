@@ -1,0 +1,3 @@
+Naprawiono dokładny błąd kompilacji app/menu/page.tsx:172.
+Usunięto podwójne pole mealCount z obiektu productionDiets.
+Przeskanowano app/menu/page.tsx pod kątem kolejnych linii z wielokrotnym mealCount: — brak.

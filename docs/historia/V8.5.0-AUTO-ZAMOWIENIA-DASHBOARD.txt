@@ -1,0 +1,24 @@
+v8.5.0
+
+1. Zamówienia WWW
+Kliknięcie „Przyjmij i utwórz dietę”:
+- znajduje istniejącego klienta po imieniu+nazwisku+adresie albo tworzy nowego,
+- przenosi telefon i adres,
+- przenosi alergeny do uwag kuchni,
+- przenosi kod/instrukcję wejścia do uwag kuriera,
+- tworzy dietę z typem, kcal, datą startu, liczbą dni i weekendami,
+- ustawia status kuchni „do zrobienia”,
+- oznacza zamówienie WWW jako przyjęte.
+Trasa: Żory/Jastrzębie => B, pozostałe => A; można ją potem zmienić.
+
+UWAGA: obecny formularz WWW nie zapisuje jeszcze wyboru 3/4/5 posiłków,
+więc zamówienie WWW domyślnie tworzy 4 posiłki. Gdy store_orders ma meal_count,
+kod automatycznie użyje 3/4/5.
+
+2. Dashboard JUTRO
+- liczba klientów
+- liczba pudełek
+- Standard/Keto/Low Carb/Vege
+- rozbicie kcal
+- rozbicie 3/4/5 posiłków
+- ostrzeżenia: brak adresu, brak menu/receptury, brak gramatury.

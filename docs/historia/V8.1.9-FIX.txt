@@ -1,0 +1,10 @@
+v8.1.9
+Naprawiono błąd:
+Cannot find name 'mealSlotsForCount'
+
+Dodano helper mealSlotsForCount przed użyciem w produkcji kuchni.
+Obsługa:
+- 3 posiłki: breakfast, lunch, dinner
+- 4 posiłki: standardowy układ
+- 5 posiłków: breakfast, second_breakfast, lunch, dinner, shake
+- Keto 4 posiłki: breakfast, lunch, dinner, shake

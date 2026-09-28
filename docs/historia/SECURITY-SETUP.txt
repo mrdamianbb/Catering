@@ -1,0 +1,28 @@
+DZIKA KACZKA — zabezpieczenie zamówień v7.6.0
+
+W Vercel -> Project -> Settings -> Environment Variables dodaj:
+
+1) NEXT_PUBLIC_TURNSTILE_SITE_KEY
+   - publiczny Site Key z Cloudflare Turnstile
+
+2) TURNSTILE_SECRET_KEY
+   - Secret Key z Cloudflare Turnstile
+   - NIE używaj prefixu NEXT_PUBLIC_
+
+3) SUPABASE_SERVICE_ROLE_KEY
+   - Supabase Dashboard -> Project Settings -> API Keys -> service_role / secret key
+   - NIE wolno umieszczać go w NEXT_PUBLIC_ ani w kodzie klienta
+
+NEXT_PUBLIC_SUPABASE_URL powinien już być w projekcie.
+
+Cloudflare Turnstile:
+- utwórz widget dla dzikakaczkacatering.pl
+- dodaj też www.dzikakaczkacatering.pl
+- po dodaniu env zrób Redeploy
+
+Po potwierdzeniu, że testowe zamówienie przechodzi przez v7.6.0,
+usuń w Supabase politykę RLS: "public can create store orders".
+Wtedy bezpośrednie omijanie formularza zostanie całkowicie zamknięte.
+
+Rate limit w Supabase jest już przygotowany:
+5 prób / 10 minut na źródło.

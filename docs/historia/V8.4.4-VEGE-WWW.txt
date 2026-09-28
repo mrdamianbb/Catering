@@ -1,0 +1,6 @@
+v8.4.4 — strona WWW / sklep
+
+Na publicznej stronie sklepu karta „3 posiłki” została zastąpiona kartą:
+Vege · Roślinnie · Pełnowartościowa dieta bez mięsa.
+
+Nie zmieniono funkcji wyboru 3/4/5 posiłków w panelu admina i kuchni.

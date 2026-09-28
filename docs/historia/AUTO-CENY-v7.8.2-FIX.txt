@@ -1,0 +1,18 @@
+Naprawa przycisku „Sprawdź ceny teraz”.
+
+Błąd v7.8.1:
+- ręczny przycisk wymagał PRICE_MONITOR_ADMIN_SECRET/CRON_SECRET wpisywanego w przeglądarce.
+- to było niepotrzebne i podatne na błędy konfiguracji.
+
+v7.8.2:
+- ręczny POST /api/price-monitor przyjmuje token aktualnie zalogowanego użytkownika Supabase;
+- backend sprawdza, czy użytkownik ma role=admin;
+- żaden CRON_SECRET nie jest wpisywany ani przechowywany w przeglądarce;
+- GET używany przez Vercel Cron nadal wymaga CRON_SECRET;
+- panel pokazuje liczbę poprawnie i błędnie sprawdzonych źródeł.
+
+Do automatycznego crona nadal ustaw w Vercel:
+SUPABASE_SERVICE_ROLE_KEY
+CRON_SECRET
+NEXT_PUBLIC_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY

@@ -1,0 +1,13 @@
+v8.1.3 — Low Carb bez osobnego menu
+
+Problem:
+Produkcja Low Carb szukała weekly_menu.diet_type='Low Carb'.
+Po uporządkowaniu receptur osobne menu Low Carb nie jest potrzebne, więc plan miał 0 kcal.
+
+Naprawa:
+- jeśli istnieje własne menu Low Carb, system może go użyć,
+- jeśli go nie ma, Low Carb automatycznie bierze sloty menu Standard z tego samego dnia,
+- recipeForProduction dobiera wariant o wspólnych składnikach / Low Carb,
+- gramatury są skalowane do kcal konkretnego klienta,
+- plan dnia nie pokazuje już 0 kcal tylko dlatego, że nie ma osobnego weekly_menu Low Carb,
+- etykiety korzystają z tej samej logiki.

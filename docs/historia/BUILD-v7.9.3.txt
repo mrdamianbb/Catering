@@ -1,0 +1,13 @@
+v7.9.3 — naprawa builda
+
+Błąd:
+Cannot find name 'printLabels50x30'
+
+Przyczyna:
+Przycisk etykiet pozostał w JSX, ale funkcja została utracona przy scalaniu kolejnych wersji.
+
+Naprawa:
+- przywrócono printLabels50x30()
+- zachowano format 50x30 mm
+- etykiety generowane są dla każdej diety i każdego posiłku
+- zachowano dane klienta, kcal, nazwę dania, datę i wykluczenia

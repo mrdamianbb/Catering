@@ -1,0 +1,7 @@
+v8.4.6 — alergeny + rabaty
+
+Alergeny były w kodzie, ale pole było całkowicie ukrywane przy domyślnie zaznaczonym „Brak alergenów”.
+Teraz sekcja i pole są zawsze widoczne. Gdy „Brak alergenów / wykluczeń” jest zaznaczone,
+pole jest wyszarzone; po odznaczeniu od razu można wpisać alergeny i wykluczenia.
+
+Zachowane rabaty v8.4.5 i wszystkie wcześniejsze poprawki.

@@ -1,0 +1,3 @@
+Naprawiono dokładny błąd z linii effectiveMealCount:
+prodDietType zwraca Standard/Keto/Low Carb i nie jest już porównywany z "3 posiłki".
+Dla starych rekordów liczba posiłków jest wykrywana bezpośrednio z diet_name.

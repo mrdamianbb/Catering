@@ -1,0 +1,6 @@
+Etykiety 50x30 mm
+- osobna etykieta dla każdego klienta i każdego posiłku
+- liczba etykiet uwzględnia bags/porcje
+- zawiera: marka, typ posiłku, klient, dieta, kcal, danie, data, wykluczenia
+- format @page = 50mm x 30mm
+- druk otwiera systemowe okno drukowania

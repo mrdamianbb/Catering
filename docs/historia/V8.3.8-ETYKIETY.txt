@@ -1,0 +1,9 @@
+v8.3.8 — etykiety 50×30
+
+Naprawiono:
+- etykiety przed drukiem pobierają świeżą listę diet bezpośrednio z Supabase,
+- nie zależą od starego stanu strony,
+- jedna najnowsza dieta na klienta — bez dublowania starych rekordów,
+- filtr daty i dni dostaw jest taki sam jak produkcja,
+- Keto i Low Carb korzystają z tego samego bazowego menu Standard, jeśli nie mają osobnego weekly_menu,
+- brak menu nie jest już mylony z brakiem diety.

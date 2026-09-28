@@ -1,0 +1,15 @@
+Naprawa tras kuriera v7.8.3
+
+Przyczyna:
+- frontend liczył datę przez toISOString(), czyli UTC,
+- po północy w Polsce panel potrafił nadal uważać, że jest poprzedni dzień,
+- kurier mógł widzieć wczorajsze diety,
+- lista kuriera w UI nie wymuszała kitchen_status=issued.
+
+Naprawione:
+- data i dzień tygodnia są liczone w Europe/Warsaw,
+- kurier widzi tylko niearchiwalne diety aktywne dzisiaj,
+- kurier widzi tylko kitchen_status=issued,
+- filtr trasy nadal obowiązuje,
+- panel kuriera odświeża dane co 60 sekund i po powrocie do karty,
+- polityka RLS w Supabase została poprawiona tak samo na Europe/Warsaw.

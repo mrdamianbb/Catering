@@ -1,0 +1,6 @@
+Kurier v7.8.6
+- endpoint pobiera diets i clients osobnymi zapytaniami service-role
+- łączy dane po client_id ręcznie
+- panel nie ukrywa diet bez adresu
+- licznik pokazuje: punkty / diety / bez adresu
+- każda dieta jest wypisana z klientem i adresem

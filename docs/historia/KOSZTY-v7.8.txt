@@ -1,0 +1,9 @@
+v7.8 — koszty i rentowność
+- Cena zakupu i cena internetowa dla każdego składnika.
+- Źródło ceny internetowej + data aktualizacji.
+- Tryb kalkulacji: mój zakup / internet / tańsza / wyższa bezpieczna.
+- Lista zakupów pokazuje potencjalną oszczędność.
+- Prognoza: dzień / tydzień / miesiąc.
+- Koszty: surowce + opakowania + transport.
+- Wynik: przychód, koszt całkowity, zysk i marża.
+- Ceny internetowe można wpisywać ręcznie; automatyczny crawler sklepów wymaga osobnego źródła/API i nie jest w tej wersji uruchomiony.

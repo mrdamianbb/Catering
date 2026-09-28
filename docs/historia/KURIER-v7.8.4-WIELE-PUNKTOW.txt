@@ -1,0 +1,8 @@
+Naprawa nawigacji kuriera:
+- wcześniej link Google Maps był składany jako /maps/dir/adres/adres i mobile potrafił zachować tylko jeden punkt,
+- teraz używany jest oficjalny format Google Maps: api=1 + origin + destination + waypoints,
+- każdy unikalny adres klienta jest osobnym punktem,
+- diety tego samego adresu są deduplikowane tylko po pełnym adresie,
+- maks. 4 punkty dostawy w jednym segmencie dla niezawodności na telefonie,
+- przy większej liczbie punktów panel tworzy Etap 1/2, Etap 2/2 itd.,
+- pod przyciskiem widać pełną listę adresów, więc od razu można policzyć, czy Google niczego nie zgubi.

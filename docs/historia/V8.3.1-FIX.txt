@@ -1,0 +1,4 @@
+Naprawiono dokładny syntax error z Vercela:
+function chosenRecipeForGroup(...) zawierała literalne znaki \n zamiast prawdziwych nowych linii.
+Funkcja jest teraz poprawnym TypeScript/JSX.
+Nie zmieniono logiki wspólnego menu.

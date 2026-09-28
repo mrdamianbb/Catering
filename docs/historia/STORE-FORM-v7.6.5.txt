@@ -1,0 +1,5 @@
+Zmiana v7.6.5
+- Keto i Bez glutenu są dwoma osobnymi wariantami diety.
+- Usunięto checkbox „Keto bez glutenu”.
+- Oferta sklepu: Standard / Keto / Bez glutenu / 3 posiłki.
+- Alergeny i kod/klucz do klatki pozostają bez zmian.

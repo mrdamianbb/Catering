@@ -1,0 +1,9 @@
+v8.1.2 — porządek receptur
+
+Zmiany:
+- Low Carb nie ma osobnej dużej sekcji w tygodniowym widoku receptur.
+- Receptury są w jednej wspólnej bazie.
+- Low Carb nadal działa w tle: system wybiera receptury o największym pokryciu składników i niższej ilości węglowodanów.
+- Usunięto duży przycisk do zasiewania Low Carb z głównego widoku, żeby nie robić bałaganu.
+- Przywrócono wejście „Ułóż diety” w panelu administratora.
+- Generator tygodnia i kuchnia pozostają dostępne pod /menu.

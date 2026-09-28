@@ -1,0 +1,12 @@
+v7.9.1 — poprawka npm allowScripts
+
+Dodano do package.json:
+"allowScripts": {
+  "sharp@0.34.5": true
+}
+
+Cel:
+- usunięcie ostrzeżenia npm dotyczącego niezatwierdzonego install script sharp@0.34.5,
+- zatwierdzona jest wyłącznie konkretna wersja 0.34.5, nie wszystkie przyszłe wersje sharp.
+
+Nie zmieniono logiki aplikacji.

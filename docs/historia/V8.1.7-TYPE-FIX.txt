@@ -1,0 +1,6 @@
+v8.1.7
+Naprawiono TypeScript:
+- kitchenDietGroups ma teraz pole mealCount:number w typie,
+- grupowanie rozróżnia 3/4/5 posiłków,
+- klucz grupy uwzględnia mealCount,
+- JSX może bez błędu używać g.mealCount.

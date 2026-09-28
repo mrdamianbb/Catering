@@ -1,0 +1,10 @@
+v8.5.3 — dashboard najbliższej realnej produkcji
+
+Naprawa:
+- dashboard nie używa już sztywno daty „jutro”,
+- przeszukuje kolejne 14 dni i wybiera pierwszy dzień, na który realnie jest aktywna dieta,
+- jeśli najbliższe diety są na sobotę, pokazuje sobotę,
+- Low Carb/Keto/Standard/Vege są liczone z diet aktywnych dokładnie na wybraną datę,
+- ostrzeżenia o menu i recepturach też dotyczą dokładnie tej daty.
+
+Dzięki temu kuchnia widzi najbliższy dzień, na który faktycznie musi przygotować jedzenie.

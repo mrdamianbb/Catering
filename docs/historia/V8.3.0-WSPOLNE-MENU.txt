@@ -1,0 +1,8 @@
+Wspólna produkcja:
+- jeden bazowy zestaw Standard na dzień,
+- wszystkie kaloryczności korzystają z tych samych dań i różnią się gramaturą,
+- 3/4/5 posiłków zmienia liczbę slotów, nie menu,
+- Keto/Low Carb dostają zamiennik wyłącznie gdy potrzebny,
+- zamiennik dobierany jest pod maksymalną zgodność składników z daniem bazowym,
+- wykluczenia nadal mają pierwszeństwo,
+- lista zakupów i koszty używają tej samej logiki co kuchnia.

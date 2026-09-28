@@ -1,0 +1,10 @@
+Naprawa TypeScript app/menu/page.tsx:48.
+
+dietTypeOf zwraca tylko:
+- Standard
+- Keto
+- Low Carb
+
+Liczba posiłków NIE jest już typem diety. mealCountOf czyta diets.meal_count (3/4/5),
+a dla starego rekordu bez wartości używa 4.
+Usunięto błędne porównanie dietTypeOf(...) === "3 posiłki".

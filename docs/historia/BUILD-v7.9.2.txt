@@ -1,0 +1,13 @@
+v7.9.2 — npm allowScripts fix
+
+Problem:
+Projekt nie ma package-lock.json. Przy braku resolved identity npm może nie dopasować
+wpisu przypiętego jako "sharp@0.34.5", dlatego sharp nadal pojawia się jako pending.
+
+Poprawka:
+"allowScripts": {
+  "sharp": true
+}
+
+To zatwierdza skrypt instalacyjny pakietu sharp po nazwie i działa bez lockfile.
+Nie zmieniono logiki aplikacji.

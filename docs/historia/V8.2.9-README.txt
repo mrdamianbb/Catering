@@ -1,0 +1,12 @@
+v8.2.9 — naprawa zapisu 3/4/5
+
+Zmiana:
+- zamiast kontrolowanego selecta są trzy jednoznaczne przyciski 3 / 4 / 5,
+- UI zmienia wartość natychmiast (optimistic update),
+- zapis idzie do diets.meal_count dla konkretnego ID diety,
+- po zapisie aplikacja odczytuje meal_count zwrócone przez Supabase,
+- przy błędzie cofa wartość i pokazuje prawdziwy komunikat z Supabase,
+- nie udaje sukcesu, jeśli baza nie potwierdzi wartości.
+
+Jeśli zapis nadal jest blokowany przez schemat bazy, uruchom:
+SUPABASE-MEAL-COUNT-NAPRAWA.sql

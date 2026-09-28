@@ -1,0 +1,4 @@
+Naprawa:
+- BEZ LAKTOZY / BEZ RYB / BEZ GLUTENU / BEZ WIEPRZOWINY bierze się wyłącznie z aktualnej diety.
+- clients.kitchen_notes nie dodaje już wykluczeń automatycznie.
+- checkboxy edycji również odzwierciedlają tylko aktualną dietę.

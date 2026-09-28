@@ -1,0 +1,21 @@
+v7.8.5 — trasa kuriera pobierana serwerowo
+
+Dlaczego:
+- nested clients w Supabase może być ograniczone przez RLS,
+- wtedy frontend ma kilka diet, ale część clients/adresów jest null,
+- routeAddresses() widzi tylko dostępne adresy i robi np. 1 punkt.
+
+Naprawa:
+- /api/courier-route sprawdza token zalogowanego użytkownika,
+- potwierdza role=courier,
+- odczytuje wyłącznie przypisane trasy kuriera,
+- service role pobiera tylko dzisiejsze, issued, niearchiwalne diety na te trasy,
+- zwraca pełne clients/adresy do panelu,
+- frontend pokazuje licznik: X punktów · Y diet.
+
+Wymagane w Vercel:
+NEXT_PUBLIC_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY
+SUPABASE_SERVICE_ROLE_KEY
+
+SUPABASE_SERVICE_ROLE_KEY musi być tylko po stronie serwera, nigdy NEXT_PUBLIC_.

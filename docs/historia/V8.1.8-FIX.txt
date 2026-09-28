@@ -1,0 +1,7 @@
+v8.1.8
+Naprawiono dokładny błąd z app/panel/page.tsx ~600:
+groups.get(key) fallback ma teraz mealCount:Number(d.meal_count||4).
+
+Dodatkowo sprawdzono wszystkie fallbacki grupowania kuchni, aby każdy obiekt
+kitchenDietGroups miał ten sam pełny typ:
+dietType, kcal, count, flags, mealCount.

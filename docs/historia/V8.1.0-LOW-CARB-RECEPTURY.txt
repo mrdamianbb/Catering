@@ -1,0 +1,9 @@
+Dodano pełną obsługę receptur Low Carb:
+- osobny układ 4 posiłków,
+- kcal od 1200,
+- Low Carb widoczny w tygodniowym menu,
+- Low Carb w formularzu receptury,
+- przycisk admina „Dodaj bazowe receptury Low Carb”,
+- 8 startowych receptur,
+- generator nadal preferuje wspólne składniki ze Standardem.
+Gramatury w produkcji skalują się do kcal na bazie base_kcal receptury.

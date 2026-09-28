@@ -1,0 +1,16 @@
+v8.4.8 — poprawki WWW / Przelewy24
+
+1. Poprawny kod rabatowy podświetla cały blok na zielono.
+2. Lista możliwych alergenów jest zawsze widoczna.
+3. Dodano na stronie głównej sekcje:
+   - Dane kontaktowe
+   - Polityka prywatności
+   - Reklamacje i odstąpienie od umowy
+4. Dodano linki do tych sekcji w stopce.
+
+WAŻNE:
+W projekcie nie było pełnej nazwy firmy, NIP-u, adresu firmy, telefonu ani e-maila.
+Dlatego NIE zostały wymyślone. Przed wysłaniem strony do ponownej weryfikacji Przelewy24
+trzeba podmienić teksty UZUPEŁNIJ... w app/sklep/page.tsx na prawdziwe dane firmy.
+
+Teksty prawne są praktycznym szkicem do wymogów operatora płatności, a nie poradą prawną.

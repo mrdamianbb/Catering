@@ -1,0 +1,4 @@
+Naprawiono build app/panel/page.tsx:
+tomorrowDate nie używa już nieistniejącej funkcji iso().
+Data YYYY-MM-DD jest składana lokalnie.
+Zachowane poprawki pełnych kcal z v8.4.0 oraz lista diet na następny dzień.

@@ -1,0 +1,15 @@
+v7.9.4 — kuchnia + kurier
+
+Naprawiono wspólną przyczynę:
+- kuchnia miała statusy tylko dla diet aktywnych DZISIAJ,
+- produkcja jest zwykle na JUTRO,
+- nowe diety na jutro nie miały „Wydaj kurierowi”,
+- kurier budował trasę tylko z issued, więc widział za mało punktów.
+
+Teraz:
+- lista kuchni pokazuje diety dokładnie na productionDate(),
+- każda taka dieta ma Do zrobienia / Przygotowanie / Gotowe / Wydaj kurierowi,
+- jest przycisk „Wydaj wszystkie do kuriera” dla całej daty produkcji,
+- kurier pobiera dane bezpośrednio z istniejącego Supabase (bez /api/courier-route),
+- nie ma błędu „Brak publicznej konfiguracji Supabase”,
+- Google Maps mieści do 9 punktów w jednym etapie; dopiero większe trasy są dzielone.

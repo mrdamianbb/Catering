@@ -1,0 +1,28 @@
+v7.8.1 — automatyczny monitoring cen
+
+Jak działa:
+- raz dziennie o 05:15 UTC Vercel wywołuje /api/price-monitor
+- endpoint sprawdza aktywne linki produktowe z Biedronki, Auchan i Carrefoura
+- preferuje cenę podaną w zł/kg
+- jeśli strona podaje tylko cenę opakowania, można wpisać gramaturę opakowania
+- zapisuje historię w price_snapshots
+- najtańsza aktualna cena trafia do ingredients.web_price_per_kg
+- lista zakupów i prognoza korzystają z tej ceny zgodnie z wybranym calc_price_mode
+
+Wymagane zmienne Vercel:
+SUPABASE_SERVICE_ROLE_KEY = klucz secret/service_role Supabase (TYLKO backend)
+CRON_SECRET = losowy długi sekret, np. 40+ znaków
+PRICE_MONITOR_ADMIN_SECRET = opcjonalnie osobny sekret do ręcznego przycisku „Sprawdź ceny teraz”
+Jeśli PRICE_MONITOR_ADMIN_SECRET nie ma, ręczny przycisk używa CRON_SECRET.
+
+Bezpieczeństwo:
+- monitor pobiera tylko HTTPS z whitelisty:
+  zakupy.biedronka.pl
+  zakupy.auchan.pl
+  carrefour.pl / www.carrefour.pl
+- timeout 8 sekund / źródło
+- maks. 50 aktywnych źródeł na przebieg
+- nie wolno dodawać dowolnych domen (ochrona przed SSRF)
+
+Uwaga:
+Sklepy mogą zmieniać HTML albo blokować automatyczne pobieranie. Wtedy źródło pokaże status błędu; system nie nadpisuje ostatniej poprawnej ceny.

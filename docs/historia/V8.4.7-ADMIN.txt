@@ -1,0 +1,12 @@
+v8.4.7 — porządki panelu admina
+
+Usunięto z widoku admina:
+- „Ceny surowców — zakup vs internet”
+- monitoring cen internetowych
+- internetowe porównania i oszczędności na liście zakupów
+
+Lista zakupów nadal pokazuje składnik i potrzebną ilość.
+
+Diety zamówione na stronie WWW pojawiają się w panelu admina w sekcji:
+„🛒 NOWE ZAMÓWIENIA ZE STRONY”.
+Dane pochodzą z store_orders.

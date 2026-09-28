@@ -1,0 +1,7 @@
+v8.1.5 — poprawka builda liczby posiłków
+
+Naprawiono:
+- błąd TypeScript `Cannot find name 'd'`
+- nagłówek grupy korzysta teraz z `g.mealCount`
+- grupowanie produkcji rozróżnia liczbę posiłków
+- filtrowanie posiłków w produkcji respektuje 3 / 4 / 5 posiłków

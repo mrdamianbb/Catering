@@ -1,0 +1,14 @@
+v8.5.13 — build fix
+
+Naprawiono błąd:
+Cannot find name 'selectedDays'
+
+Dodano brakujący stan:
+const [selectedDays,setSelectedDays]=useState(20);
+
+Zachowane:
+- dostawy od 19:00
+- podsumowanie ceny
+- rabaty
+- czerwone kafelki diet i kalorii
+- wyśrodkowany formularz

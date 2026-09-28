@@ -1,0 +1,7 @@
+Dodano kod promocyjny 20DNI10:
+- rabat 10%
+- działa wyłącznie przy zamówieniu na minimum 20 dni
+- brak automatycznego rabatu
+- nadal obowiązuje zasada jednego kodu na osobę + adres
+- rabaty nie łączą się
+- warunek 20 dni jest sprawdzany na froncie i ponownie na serwerze

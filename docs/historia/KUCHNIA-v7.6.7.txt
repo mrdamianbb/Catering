@@ -1,0 +1,5 @@
+Kuchnia v7.6.7
+- Każdy rekord diety jest pokazany osobno, klient po kliencie.
+- Nie grupujemy kilku klientów 1600 kcal w jeden blok.
+- Każdy blok pokazuje: klient, typ diety, kcal, wykluczenia, liczbę porcji, sumę kcal dnia, dania i gramatury.
+- Produkcja na dzień wynika z start_date/end_date + delivery_weekdays.

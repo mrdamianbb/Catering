@@ -1,0 +1,12 @@
+v8.2.0 — kuchnia ma dokładnie to, co realnie wyjeżdża
+
+Najważniejsze:
+- źródłem prawdy jest każda aktywna dieta klienta na productionDate()
+- dodano checklistę „To realnie ma wyjechać”
+- grupy kuchni powstają WYŁĄCZNIE z tej listy
+- grupowanie uwzględnia: typ, kcal, liczbę posiłków i wykluczenia
+- każda grupa pokazuje nazwiska klientów
+- Low Carb jest rozpoznawany jako Low Carb, nie Standard
+- Low Carb może korzystać z menu Standard tego dnia
+- 3/4/5 posiłków ma własny podział kcal sumujący się do 100%
+- jeśli brakuje slotu np. shake przy 5 posiłkach, system próbuje dobrać aktywną recepturę

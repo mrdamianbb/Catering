@@ -1,0 +1,9 @@
+v7.7 — automatyczne archiwum i historia klienta
+
+- Admin przy każdym wczytaniu panelu automatycznie archiwizuje diety, których end_date jest wcześniejsza niż dzisiejsza data.
+- Dodatkowa kontrola archiwum wykonuje się co godzinę podczas otwartego panelu.
+- Przycisk „Sprawdź archiwum teraz” wymusza kontrolę ręcznie.
+- Historia diet jest pogrupowana per klient.
+- „Odnów tę dietę” wczytuje: klienta, nazwę diety, kcal, porcje, trasę, uwagi, wykluczenia, soboty i niedziele.
+- Nowe daty pozostają puste i wymagane, żeby przypadkiem nie uruchomić starego okresu.
+- Odnowienie tworzy nowy rekord; stary pozostaje w historii.

@@ -1,0 +1,11 @@
+v8.4.3 — naprawa about:blank przy drukowaniu etykiet
+
+Przyczyna:
+okno było otwierane dopiero po await do Supabase, więc przeglądarka traciła
+bezpośredni gest użytkownika i zostawiała/blokowała popup.
+
+Naprawa:
+- okno otwiera się natychmiast po kliknięciu,
+- pokazuje „Wczytuję etykiety…”,
+- po pobraniu danych to samo okno jest wypełniane etykietami,
+- następnie automatycznie otwiera się dialog drukowania.

@@ -1,0 +1,11 @@
+v8.5.1 — naprawa Application error
+
+Przyczyna:
+dashboard JUTRO wykonywał productionRowsForGroup() podczas renderowania,
+zanim const productionRowsForGroup został zainicjalizowany w komponencie.
+To powodowało client-side exception mimo poprawnego buildu.
+
+Naprawa:
+dashboard sprawdza jutrzejsze menu bezpośrednio w forecastMenus,
+które jest już dostępne w tym miejscu renderu.
+Zachowane auto-przyjmowanie zamówień i dashboard.

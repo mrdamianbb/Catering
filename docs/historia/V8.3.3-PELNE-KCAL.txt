@@ -1,0 +1,10 @@
+Naprawa kalorii dla 3/4/5 posiłków.
+
+Zasada:
+- kcal diety oznacza kcal całego dnia, niezależnie od liczby posiłków.
+- jeśli z bazowego wspólnego menu brakuje któregoś slotu, udziały kcal są normalizowane
+  pomiędzy posiłki, które faktycznie jadą do klienta.
+- Low Carb 2500 / 3 posiłki => plan dnia 2500 kcal.
+- Standard 2000 / 3 posiłki => plan dnia 2000 kcal.
+- 4 i 5 posiłków również sumują się do kcal diety.
+- gramatury, lista zakupów i koszt używają tej samej znormalizowanej proporcji.

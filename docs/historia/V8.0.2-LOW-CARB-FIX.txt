@@ -1,0 +1,9 @@
+v8.0.2
+Naprawiono formularz edycji diety.
+Błąd v8.0.1: nieprawidłowe JSX `required/ list=...`.
+
+Teraz:
+- edycja diety ma normalny SELECT,
+- Low Carb jest widoczny jako osobna opcja,
+- dodawanie/odnawianie diety ma ten sam SELECT,
+- stare niestandardowe nazwy diet nie giną: są dodawane tymczasowo jako opcja bieżąca.

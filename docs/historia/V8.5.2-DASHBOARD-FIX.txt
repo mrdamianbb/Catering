@@ -1,0 +1,11 @@
+v8.5.2 — dashboard JUTRO bez fałszywych alarmów
+
+Problem:
+dashboard porównywał każdego klienta do sztywnego układu posiłków i zgłaszał
+np. „brak Kolacji”, mimo że kuchnia miała realny plan dla tej diety.
+
+Naprawa:
+- brak poszczególnego slotu nie jest już alarmem per klient,
+- alarm „brak menu” pojawia się tylko, gdy dla całego typu diety nie ma jutro żadnego menu,
+- nadal alarmujemy brak adresu, faktyczny brak receptury oraz brak gramatury,
+- duplikaty ostrzeżeń są usuwane.

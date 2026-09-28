@@ -1,0 +1,16 @@
+v8.1.4 — liczba posiłków per klient/dieta
+
+Admin:
+- przy dodawaniu diety: 3 / 4 / 5 posiłków
+- przy edycji: 3 / 4 / 5 posiłków
+- przy odnowieniu starej diety wartość jest zachowana
+
+Kuchnia:
+- widzi liczbę posiłków przy diecie
+- produkcja filtruje posiłki zgodnie z meal_count
+- 3: śniadanie, obiad, kolacja
+- 4: standardowo 4 sloty
+- 5: śniadanie, II posiłek, obiad, kolacja, shake
+
+Wymagana zmiana bazy:
+uruchom supabase-add-meal-count.sql

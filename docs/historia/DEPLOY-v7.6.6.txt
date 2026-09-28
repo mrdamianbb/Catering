@@ -1,0 +1,9 @@
+Po wdrożeniu sprawdź domenę publiczną.
+W hero sklepu musi być widoczny mały badge: v7.6.6.
+Oferta ma mieć dokładnie:
+1. Standard
+2. Keto
+3. Bez glutenu
+4. 3 posiłki
+
+Jeżeli domena nadal NIE pokazuje badge v7.6.6, to domena nie wskazuje na ten deployment.

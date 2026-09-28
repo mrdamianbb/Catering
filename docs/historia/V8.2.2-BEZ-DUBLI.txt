@@ -1,0 +1,7 @@
+v8.2.2 — czysta lista wyjazdu
+
+- jedna pozycja na klienta na dany dzień
+- przy nakładających się rekordach wybierany jest najnowszy rekord (najwyższe id)
+- stare nakładające wpisy nie trafiają do grup produkcyjnych
+- nazwa diety w kuchni jest ujednolicona: Standard / Keto / Low Carb + kcal + liczba posiłków
+- surowe stare nazwy nie są pokazywane jako typ diety

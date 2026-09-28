@@ -1,0 +1,4 @@
+Naprawiono TypeScript build error w normalizedMealShare:
+- jawny return type :number
+- usunięta zależność inferencji normalizedMealShare -> productionRowsForGroup -> mealPlanFor.
+Logika pełnych kcal 3/4/5 pozostaje bez zmian.

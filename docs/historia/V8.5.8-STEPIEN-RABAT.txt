@@ -1,0 +1,4 @@
+v8.5.8
+Dodano kod STĘPIEŃ / STEPIEN — 5%.
+Kod działa niezależnie od polskich znaków i wielkości liter.
+Pozostają zasady: rabaty nie łączą się i są jednorazowe dla tej samej osoby + adresu.

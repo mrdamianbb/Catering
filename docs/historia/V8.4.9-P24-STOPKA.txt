@@ -1,0 +1,15 @@
+v8.4.9 — dokumenty P24 w stopce
+
+Na dole strony są trzy klikalne pozycje:
+- Dane kontaktowe
+- Polityka prywatności
+- Reklamacje i odstąpienie
+
+Treść rozwija się po kliknięciu zamiast zajmować miejsce na stronie.
+
+Dane firmy:
+FHU Damian Balcar
+NIP 6472583650
+ul. 1 Maja 65, Skrzyszów
+tel. 884 004 321
+kontakt@balcar.com.pl

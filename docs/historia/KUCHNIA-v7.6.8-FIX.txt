@@ -1,0 +1,11 @@
+Naprawiono krytyczny błąd:
+zapytanie pobierało actualDiets, ale nie zapisywało ich do stanu React.
+
+Teraz:
+- setActualDiets(ad || []) działa po każdym load(),
+- diety odświeżają się automatycznie co 30 sekund,
+- odświeżają się po powrocie do karty,
+- jest przycisk „Odśwież diety”.
+
+Zweryfikowany rekord w bazie:
+Barbara Rogoś — Keto 1200 kcal — 25.08–29.08 — aktywna.

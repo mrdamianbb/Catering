@@ -1,0 +1,8 @@
+Wersja pod ponowną weryfikację Przelewy24:
+- widoczna sekcja Dane kontaktowe na stronie głównej,
+- pełna nazwa firmy i NIP,
+- adres, telefon, e-mail,
+- widoczne streszczenie polityki prywatności,
+- termin reklamacji 14 dni,
+- informacja o odstąpieniu od umowy,
+- pełne rozwijane treści prawne nadal dostępne w stopce.

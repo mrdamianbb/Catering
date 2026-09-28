@@ -1,0 +1,4 @@
+Naprawa: Low Carb w edycji diet.
+- dodano Low Carb do wszystkich selectów diet_name,
+- dodano Low Carb do pól edycji korzystających z datalist,
+- zachowano Low Carb w formularzu dodawania, kuchni i sklepie.

@@ -1,0 +1,8 @@
+v7.9.0
+- Low Carb jako osobny typ diety.
+- W obrębie typu diety wszystkie kaloryczności mają to samo menu dnia.
+- Kaloryczność zmienia tylko gramaturę składników, nie wybór dania.
+- Standard: wspólne menu dla wszystkich kcal.
+- Keto: wspólne menu dla wszystkich kcal.
+- Low Carb: wspólne menu dla wszystkich kcal.
+- Jeśli nie ma jeszcze receptury Low Carb, tymczasowo używany jest odpowiednik Standard dla tego samego posiłku i skalowana jest gramatura.

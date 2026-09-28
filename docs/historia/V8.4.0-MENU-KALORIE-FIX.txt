@@ -1,0 +1,12 @@
+v8.4.0 — naprawa rozjazdu kcal w /menu
+
+Błąd:
+Standard 1300 / 4 posiłki miał plan 1040 kcal, ponieważ menu dnia nie zawsze zawierało
+wszystkie sloty, a kod sumował stałe udziały tylko dla znalezionych pozycji.
+
+Naprawa:
+- udziały kalorii są normalizowane pomiędzy posiłki faktycznie obecne w menu klienta,
+- plan dnia pokazuje pełną kaloryczność diety,
+- target kcal każdego posiłku i gramatury korzystają z tej samej normalizacji,
+- 1300 => 1300, 1600 => 1600, 2000 => 2000 itd.,
+- działa dla 3/4/5 posiłków.

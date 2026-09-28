@@ -1,0 +1,14 @@
+v8.6.1 — wspólne dania + gramatury
+
+PLAN KUCHNI pokazuje teraz:
+- jedno wspólne danie bazowe na posiłek i dzień,
+- aktywne kombinacje: dieta + kcal + 3/4/5 posiłków,
+- kcal przypadające na konkretny posiłek,
+- gramaturę każdego składnika na 1 porcję,
+- łączną gramaturę na wszystkie porcje danej kombinacji.
+
+Zasada produkcyjna:
+- Standard: ta sama receptura dla wszystkich kaloryczności; zmienia się gramatura,
+- Keto / Low Carb / Vege: wariant tego samego posiłku tylko wtedy, gdy jest potrzebny,
+- wykluczenia są respektowane przy wyborze wariantu,
+- plan 3/4/5 posiłków jest normalizowany do pełnej kaloryczności dnia.

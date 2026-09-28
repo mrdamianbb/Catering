@@ -1,0 +1,10 @@
+v8.3.6 — typ diety w kuchni zawsze z rekordu klienta
+
+Sprawdzone w bazie:
+Fizjo = Low Carb, 2500 kcal, 3 posiłki.
+
+Naprawa:
+- klasyfikacja kuchni bierze typ wyłącznie z diets.diet_name konkretnego klienta,
+- Low Carb ma pierwszeństwo przed Keto w resolverze,
+- summary wyjazdu budowane jest z productionDietsActual, nie z weekly_menu/recipe.diet_type,
+- g.dietType jest źródłem etykiety grupy produkcyjnej.

@@ -1,0 +1,3 @@
+Dodano zdjęcie lifestyle do publicznej strony cateringu.
+Sekcja: /sklep → O NAS.
+Zdjęcie zastępuje samo logo po lewej stronie i jest responsywnie kadrowane.

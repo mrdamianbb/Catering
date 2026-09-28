@@ -1,0 +1,7 @@
+v8.0.0
+- Low Carb w adminie, kuchni i sklepie.
+- Wszystkie kcal danego typu korzystają z tego samego dania; zmienia się gramatura.
+- Standard jest bazą produkcyjną.
+- Low Carb i Keto preferują receptury z maksymalnym pokryciem składników bazy Standard.
+- Low Carb bez własnej receptury może użyć bezpiecznej bazy Standard.
+- Alergeny i wykluczenia nadal mają pierwszeństwo.

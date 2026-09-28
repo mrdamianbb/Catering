@@ -1,0 +1,4 @@
+Naprawiono syntax error panel/page.tsx ~1350.
+Dwa elementy JSX (selektor posiłków + przycisk Edytuj) były zwracane w jednym warunku bez wrappera.
+Są teraz opakowane fragmentem <>...</>.
+Logika zapisu meal_count z v8.2.7 pozostaje bez zmian.

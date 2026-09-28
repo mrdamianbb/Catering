@@ -1,0 +1,11 @@
+v8.5.5 — dashboard respektuje wspólną bazę menu
+
+Naprawiono fałszywe alarmy:
+- Low Carb: brak ułożonego menu
+- Keto: brak ułożonego menu
+
+Zasada:
+jeśli dla Keto/Low Carb nie ma osobnego weekly_menu, dashboard używa menu Standard
+z tej samej daty, dokładnie tak jak kuchnia.
+
+Alarm pojawia się dopiero wtedy, gdy nie ma także menu bazowego Standard.

@@ -1,0 +1,4 @@
+Naprawiono drugi błąd zakresu zmiennej:
+- historia/odnawianie diety używa d.meal_count
+- grupowa produkcja kuchni używa g.mealCount
+Poprzednia poprawka była zbyt szeroka i zamieniła również poprawne d na g.

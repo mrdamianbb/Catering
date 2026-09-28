@@ -1,0 +1,14 @@
+v8.2.1 — gramatury Low Carb
+
+Problem:
+Receptury Low Carb zapisane wcześniej miały makro i kcal, ale nie miały wpisów recipe_ingredients.
+Kuchnia widziała nazwę dania i kcal, ale pustą tabelę składników.
+
+Naprawa:
+- dodano bazowe gramatury dla wszystkich 32 receptur Low Carb,
+- jeżeli receptura ma prawdziwe recipe_ingredients z bazy, one mają pierwszeństwo,
+- jeżeli ich nie ma, system używa bezpiecznego fallbacku gramatur,
+- gramatury są następnie skalowane z base_kcal do kcal danego posiłku klienta,
+- fallback działa również w produkcji admina i liście zakupów.
+
+Docelowo można zapisać te gramatury do recipe_ingredients w bazie; aplikacja nie wymaga tego od razu, aby kuchnia mogła pracować.

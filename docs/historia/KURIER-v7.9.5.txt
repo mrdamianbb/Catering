@@ -1,0 +1,4 @@
+Kurier v7.9.5
+- przy każdym punkcie dostawy widzi klienta, adres, typ diety i kcal
+- kilka diet pod tym samym adresem jest pokazanych pod jednym punktem
+- brak adresu nadal jest oznaczony na czerwono

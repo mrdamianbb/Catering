@@ -1,0 +1,12 @@
+v8.4.2 — przygotowanie kuchni na jutro bezpośrednio w /menu
+
+Dodano na ekranie Menu i produkcja:
+- sekcję „Jutro — przygotowanie kuchni”
+- klient
+- typ diety
+- kcal
+- 3/4/5 posiłków
+- liczba porcji
+- wykluczenia
+
+Sekcja korzysta z aktualnych diet załadowanych z Supabase.
