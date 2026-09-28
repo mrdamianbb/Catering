@@ -1,0 +1,3 @@
+-- v8.1.1
+-- Zalecane: użyj w panelu admina przycisku „Dodaj bazowe receptury Low Carb”.
+-- Przycisk dodaje receptury bez duplikatów i korzysta z istniejącego schematu tabeli recipes.
