@@ -2463,3 +2463,41 @@ main.menuPage .wlasneHaslo button{
 }
 main.menuPage .wlasneHaslo button:hover:not(:disabled){background:#242b34;border-color:#e7192f;color:#fff}
 main.menuPage .surplusChip span{opacity:.7;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+
+/* ── Podsumowanie na górze rozpiski produkcji ── */
+main.menuPage .rozpiskaPodsumowanie{
+  background:#171b21;border:1px solid #2a2f37;border-radius:14px;
+  padding:16px 18px;margin:0 0 18px;
+}
+main.menuPage .rozpiskaNaglowek{
+  display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+  flex-wrap:wrap;margin-bottom:12px;
+}
+main.menuPage .rozpiskaNaglowek b{
+  font-family:var(--font-display),sans-serif;font-size:15px;color:#fff;
+  letter-spacing:.02em;text-transform:uppercase;
+}
+main.menuPage .rozpiskaNaglowek span{font-size:13px;color:#98a0ab;font-weight:700}
+main.menuPage .rozpiskaKafle{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:10px;
+}
+main.menuPage .rozpiskaKafel{
+  display:flex;align-items:center;gap:12px;
+  background:#1b2027;border:1px solid #2a2f37;border-radius:11px;padding:12px 14px;
+}
+main.menuPage .rozpiskaKafel>b{
+  font-family:var(--font-display),sans-serif;font-size:26px;font-weight:900;
+  color:#e7192f;line-height:1;min-width:44px;
+}
+main.menuPage .rozpiskaDieta{display:block;font-size:14px;font-weight:700;color:#fff}
+main.menuPage .rozpiskaSzczegol{display:block;font-size:12px;color:#8a9098;margin-top:1px}
+main.menuPage .rozpiskaFlagi{
+  display:block;margin-top:5px;font-size:11px;font-weight:800;color:#f3c179;letter-spacing:.03em;
+}
+@media print{
+  main.menuPage .rozpiskaPodsumowanie,main.menuPage .rozpiskaKafel{
+    background:#fff!important;border-color:#bbb!important;
+  }
+  main.menuPage .rozpiskaNaglowek b,main.menuPage .rozpiskaDieta,
+  main.menuPage .rozpiskaKafel>b{color:#000!important}
+}
